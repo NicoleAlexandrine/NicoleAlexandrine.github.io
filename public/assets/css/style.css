@@ -1,0 +1,234 @@
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+
+a {
+  color: #F05E16;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F05E16;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #eff2f8;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #388E3C;
+  font-family: 'Roboto' !important;
+}
+
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #388e3c;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+  
+}
+
+/*--------------------------------------------------------------
+# Officials
+--------------------------------------------------------------*/
+.officials .member {
+  position: relative;
+  padding: 30px;
+  border-color: #388e3c !important;
+  border-radius: 15px;
+  border-width: 3px 3px 10px 3px;
+  background-color: #fff !important;
+  transition: all 0.3s ease-in-out;
+  width: 620px;
+}
+
+.pic {
+  overflow: hidden;
+  width: 180px;
+  border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+  .pic{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .description{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+  }
+}
+
+.officials .member .pic img {
+  transition: ease-in-out 0.3s;
+}
+
+.officials .member:hover {
+  transform: translateY(-10px);
+}
+
+.officials .member .member-info {
+  padding-left: 30px;
+}
+
+.officials .member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #388E3C;
+}
+
+.officials .member span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.officials .member span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #444444;
+  bottom: 0;
+  left: 0;
+}
+
+.officials .member p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+/* CJ */
+.cookie-card {
+  max-width: 620px;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, .05);
+
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 15px;
+  border-style: solid; /* You need to set the style to use the border -CJ*/
+  border-color: #388e3c;
+  border-width: 3px 3px 3px 3px;
+  background-color: #fff !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.title {
+  font-weight: 600;
+  color: rgb(31 41 55);
+}
+
+.description {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: rgb(75 85 99);
+}
+
+/* ====================================================================== */
+.cookie-card .pic img {
+  transition: ease-in-out 0.3s;
+}
+
+.cookie-card:hover {
+  transform: translateY(-10px);
+}
+
+.cookie-card .member-info {
+  padding-left: 30px;
+}
+
+.cookie-card h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #388E3C;
+}
+
+.cookie-card span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.cookie-card span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #444444;
+  bottom: 0;
+  left: 0;
+}
+
+.cookie-card p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
